@@ -4,15 +4,15 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = 'activesupport-json_encoder'
-  gem.version       = '1.1.0'
+  gem.version       = '1.1.2'
   gem.authors       = ["David Heinemeier Hansson"]
   gem.email         = ["david@loudthinking.com"]
   gem.description   = 'A pure-Ruby ActiveSupport JSON encoder'
-  gem.summary       = 'A pure-Ruby ActiveSupport JSON encoder (extracted from core in Rails 4.1)'
+  gem.summary       = 'A pure-Ruby ActiveSupport JSON encoder'
   gem.homepage      = 'https://github.com/rails/activesupport-json_encoder'
   gem.license       = 'MIT'
 
-  gem.required_ruby_version = '>= 1.9.3'
+  gem.required_ruby_version = '>= 2.5.0'
 
   gem.files         = Dir['MIT-LICENSE', 'README.md', 'lib/**/*']
   gem.test_files    = Dir['test/**/*.rb']
